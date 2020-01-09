@@ -8,7 +8,7 @@ def calc_odds_prob(df, broker = 'PIN'):
     broker_sign = broker + '_sign'
     broker_dec = broker + '_dec'
     broker_int = broker + '_int'
-    broker_prob = broker + '_prob'
+    broker_prob = broker + '_prob'x
     
     df[broker_sign] = [s[0] for s in df[broker]]
 
